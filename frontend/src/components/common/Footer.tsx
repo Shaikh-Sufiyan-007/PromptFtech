@@ -6,13 +6,13 @@ export const Footer = () => {
   return (
     <footer className="bg-slate-950 border-t border-slate-900 text-slate-400 text-sm py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-8">
-        
+
         <div className="space-y-4">
           <div className="flex items-center gap-2 text-lg font-bold text-white">
             <div className="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center">
               <Sparkles className="w-4 h-4 text-white" />
             </div>
-            <span>PromptSeen</span>
+            <span>Taufique Verse</span>
           </div>
           <p className="text-xs text-slate-400 leading-relaxed">
             The open directory for discovering, filtering, and copying high-performing AI prompts for ChatGPT, Midjourney, Claude, and Stable Diffusion.
@@ -56,7 +56,7 @@ export const Footer = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 mt-8 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500">
-        <p>&copy; {new Date().getFullYear()} PromptSeen Directory. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Taufique Verse Directory. All rights reserved.</p>
         <div className="flex items-center gap-2">
           <span>Built with</span>
           <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500" />
