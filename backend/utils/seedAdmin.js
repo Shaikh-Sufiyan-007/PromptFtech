@@ -66,8 +66,8 @@ const seedAdminAndContent = async () => {
     await Prompt.deleteMany({});
 
     // Create Single Admin Account
-    const adminEmail = 'admin@promptseen.com';
-    const adminPassword = 'adminpassword123';
+    const adminEmail = 'taufique@promptseen.com';
+    const adminPassword = 'taufique@verse@007';
 
     const admin = await Admin.create({
       name: 'Primary System Admin',
