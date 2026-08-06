@@ -52,14 +52,14 @@ export default function HomePage() {
       <Navbar />
 
       <main className="flex-1">
-        
+
         {/* HERO SECTION */}
         <section className="relative overflow-hidden pt-20 pb-16 md:pt-28 md:pb-24 border-b border-slate-900">
           <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-indigo-600/15 blur-[120px] rounded-full pointer-events-none" />
           <div className="absolute top-1/3 left-1/3 w-[400px] h-[250px] bg-purple-600/15 blur-[100px] rounded-full pointer-events-none" />
 
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-            
+
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900 border border-slate-800 text-xs text-indigo-300 font-medium mb-6 shadow-inner">
               <Sparkles className="w-3.5 h-3.5 text-indigo-400" />
               <span>Curated AI Prompt & Tool Sharing Directory</span>
@@ -141,7 +141,7 @@ export default function HomePage() {
                     <h3 className="text-lg font-semibold text-white group-hover:text-indigo-400 transition">{cat.name}</h3>
                     <p className="text-xs text-slate-400 mt-2 line-clamp-2">{cat.description}</p>
                   </div>
-                  
+
                   <div className="flex items-center text-xs font-semibold text-indigo-400 group-hover:translate-x-1 transition-transform">
                     Explore Prompts <ArrowRight className="w-3.5 h-3.5 ml-1" />
                   </div>

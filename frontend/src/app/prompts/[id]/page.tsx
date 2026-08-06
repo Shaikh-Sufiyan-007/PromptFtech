@@ -82,7 +82,7 @@ export default function PromptDetailPage() {
 
       <main className="flex-1 py-10">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          
+
           {/* Back Button */}
           <Link
             href="/prompts"
@@ -94,7 +94,7 @@ export default function PromptDetailPage() {
 
           {/* Main Card Wrapper */}
           <div className="bg-slate-900/90 rounded-3xl border border-slate-800 shadow-2xl overflow-hidden p-6 sm:p-10 space-y-8">
-            
+
             {/* Header Title & Badges */}
             <div className="space-y-3">
               <div className="flex flex-wrap items-center gap-3">
@@ -127,11 +127,10 @@ export default function PromptDetailPage() {
                 <h3 className="text-sm font-semibold text-slate-200 uppercase tracking-wider">Prompt Copy Box</h3>
                 <button
                   onClick={handleCopy}
-                  className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-semibold transition ${
-                    copied
+                  className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-semibold transition ${copied
                       ? 'bg-emerald-600 text-white shadow-lg shadow-emerald-600/30'
                       : 'bg-indigo-600 hover:bg-indigo-500 text-white shadow-md shadow-indigo-600/30'
-                  }`}
+                    }`}
                 >
                   {copied ? (
                     <>
